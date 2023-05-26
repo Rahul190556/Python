@@ -1,0 +1,17 @@
+ID    Address City      State     Country Name      Employees
+      3666     San      CA
+     121st St Francisco94114 USA          Madeira           8
+      735
+      Dolores San       CA                Bready
+     2St       Francisco94119 USA         Shop             15
+      332 Hill San      California        Super
+     3St       Francisco94114 USA         River            25
+      3995     San      CA                Ben's
+     423rd St Francisco94114 USA          Shop             10
+      1056
+      Sanchez San
+     5St       FranciscoCaliforniaUSA     Sanchez          12
+      551
+      AlvaradoSan       CA
+     6St       Francisco94114 USA         Richvalley       20
+
