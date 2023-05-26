@@ -5,11 +5,11 @@ df = pd.read_csv("Pandas/supermarkets.csv")
 nom = Nominatim(user_agent="http://pythonhow.com/supermarkets.json")
 location = nom.geocode("3995 23rd Street, San Francisco, CA 94114")
 
-if location is not None:
-    print("Latitude:", location.latitude)
-    print("Longitude:", location.longitude)
-else:
-    print("Location not found.")
+# if location is not None:
+#     print("Latitude:", location.latitude)
+#     print("Longitude:", location.longitude)
+# else:
+#     print("Location not found.")
 
 df["Address"]=df["Address"] + "," + df["City"] + "," + df["State"] + "," + df["Country"]
 print(df,'\n')
