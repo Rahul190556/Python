@@ -1,6 +1,6 @@
 import json
 
-data = json.load(open("BuildingDic/data.json"))
+data = json.load(open("3BuildingDic/data.json"))
 
 
 def translate(w):

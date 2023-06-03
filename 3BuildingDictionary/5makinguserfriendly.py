@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("BuildingDictionary/data.json"))
+data = json.load(open("3BuildingDictionary/data.json"))
 
 
 def translate(w):

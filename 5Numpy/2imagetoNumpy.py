@@ -1,6 +1,6 @@
 import cv2
 import numpy
-im_g=cv2.imread("Numpy/102 smallgray.png",0) # 0 means you are reading image gray scale and 1 means reading image in bgr
+im_g=cv2.imread("5Numpy/102 smallgray.png",0) # 0 means you are reading image gray scale and 1 means reading image in bgr
 print(im_g)
 cv2.imwrite("newsmallgray.png",im_g)
 

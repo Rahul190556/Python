@@ -1,6 +1,6 @@
 import time
 from datetime import datetime as dt
-host_temp="WebsiteBlocker/hosts"
+host_temp="9WebsiteBlocker/hosts"
 hosts_path=r"C:\Windows\System32\drivers\etc\hosts"
 redirect="127.0.0.1"
 website_list=["www.facebook.com","facebook.com","dub119.mail.live.com","www.dub119.mail.live.com"]

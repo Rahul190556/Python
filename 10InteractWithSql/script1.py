@@ -1,7 +1,7 @@
 import sqlite3
 
 def create_table():
-    conn = sqlite3.connect("InteractWithSql/lite.db")
+    conn = sqlite3.connect("10InteractWithSql/lite.db")
     cur = conn.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS store(item TEXT, quantity INTEGER, price REAL)")
     conn.commit()

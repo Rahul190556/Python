@@ -1,8 +1,8 @@
 import pandas as pd
 
-df1 = pd.read_csv("Pandas/supermarkets.csv")
+df1 = pd.read_csv("4Pandas/supermarkets.csv")
 # df1.shape it gives order of data frames like 6 X 7
-df2 = pd.read_json("Pandas/supermarkets.json")
+df2 = pd.read_json("4Pandas/supermarkets.json")
 df3=pd.read_json("http://pythonhow.com/supermarkets.json")  #reading data from url
 
 

@@ -4,7 +4,7 @@
 import json
 import difflib
 
-data = json.load(open("BuildingDic/data.json"))
+data = json.load(open("3BuildingDic/data.json"))
 from difflib import SequenceMatcher
 from difflib import get_close_matches
 

@@ -1,7 +1,7 @@
 import pandas
 import folium
 
-data= pandas.read_csv("Web Mapping App/Volcanoes_USA.txt")
+data= pandas.read_csv("6Web Mapping App/Volcanoes_USA.txt")
 # print(data)
 lat=list(data["LAT"]) #longitude
 lon=list(data["LON"]) #Latitude

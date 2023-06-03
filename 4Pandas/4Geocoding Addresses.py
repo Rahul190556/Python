@@ -1,6 +1,6 @@
 from geopy.geocoders import Nominatim
 import pandas as pd
-df = pd.read_csv("Pandas/supermarkets.csv")
+df = pd.read_csv("4Pandas/supermarkets.csv")
 
 nom = Nominatim(user_agent="http://pythonhow.com/supermarkets.json")
 location = nom.geocode("3995 23rd Street, San Francisco, CA 94114")
